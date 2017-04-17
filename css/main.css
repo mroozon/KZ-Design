@@ -5,16 +5,13 @@
   font-family: 'banner';
   src:	url('../fonts/scribble.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'decorated';
-  src:	url('../fonts/SCRIPTIN.ttf') format('truetype');
-}
-html{height:100%;}
 
+html{height:100%;}
 body {
 	font-weight: 300;
 	height:100%;
 }
+
 a {
 	color: #626262;
 	text-decoration: none;
@@ -24,7 +21,6 @@ a {
 		    transition: color 0.1s linear 0s;
 }
 
-
 a:hover,
 a:active,
 a:focus{
@@ -32,14 +28,17 @@ a:focus{
 	color:#Fedc3d;
 	text-decoration:none;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'banner';
 	text-align: center;
 	margin:1.5em 0;
 }
+
 h2 {
     font-size: 30px;
 }
+
 #loader {
   background-color: #000;
   display: none;
@@ -94,26 +93,24 @@ h2 {
 	float: right;
 	margin: 15px;
 }
-.shadow {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 .col-sm-4 img {
   max-width: 80%;
   margin: auto;
   margin-top: 50px;
   height: 600px;
 }
+
 .slider {
   position: relative;
   background-image: url(../images/kz-bw.jpg);
-
-	padding: 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
   width: auto;
   height: 100vh;
 }
+
 @media screen and (max-width: 580px) {
 .apla {
     position: relative;
@@ -122,7 +119,6 @@ h2 {
     width: 180px;
     margin-left: 5%;
     margin-right: auto;
-
 }
 
 .logo p span {
@@ -130,6 +126,7 @@ h2 {
     font-weight: 800;
     font-size: 25px;
 }
+
 .logo {
     padding-left: 20px;
     line-height: 1.2;
@@ -146,7 +143,7 @@ h2 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 	text-align: center;*/
-}
+    }
 }
 
 @media screen and (min-width: 580px) {
@@ -157,7 +154,6 @@ h2 {
     width: 250px;
     margin-left: 10%;
     margin-right: auto;
-
 }
 
 .logo p span {
@@ -219,6 +215,7 @@ h2 {
 	text-align: center;*/
     }
 }
+
 @media screen and (min-width: 1200px) {
 .apla {
     position: relative;
@@ -227,8 +224,8 @@ h2 {
     width: 280px;
     margin-left: 20%;
     margin-right: auto;
-
 }
+
 .logo p span {
     font-family: Open Sans;
     font-weight: 800;
@@ -251,7 +248,7 @@ h2 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 	text-align: center;*/
-}
+    }
 }
 
 .logo h3 {
@@ -271,6 +268,7 @@ h2 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 /* portrait */
 @media screen and (orientation:portrait) {
     .logo h3 {
@@ -356,7 +354,7 @@ h2 {
 	margin: 0 1.5em;
 }
 .shadow {
-	   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
 }
 
 #myModal .modal-content {
@@ -367,68 +365,8 @@ h2 {
 
 }
 
-/*
-#myModal .modal-dialog {
-	width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    top: 0;
-    left: 0;
-}*/
-/*
-#myModal .modal-body {
-	position: absolute;
-	height: 100%;
-	padding: 0;
-}
-
-#myModal .modal-content {
-	position: relative;
-	width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    top: 0;
-    left: 0;
-    border:0;
-
-}*/
-/*
-.modal-fullscreen {
-  background: rgba(0, 0, 0, 0.7);
-}
-.modal-fullscreen .modal-content {
-  background: transparent;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.modal-backdrop.modal-backdrop-fullscreen {
-  background: #ffffff;
-}
-.modal-backdrop.modal-backdrop-fullscreen.in {
-  opacity: .50;
-  filter: alpha(opacity=97);
-}*/
-
-/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
-
-/*#myModal .modal-fullscreen .modal-dialog {
-  margin: 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-
-}
-
-#myModal .modal button .close {
-	position: fixed;
-	right: 20px;
-	font-size: 55px;
-	z-index: 2000;
-	color:#fff;
-}*/
-
 /*CONTACT SECTION*/
+
 .contact p a span {
     color: #fff;
 	font-size: 40px;
@@ -442,27 +380,23 @@ h2 {
 #map {
 		width: 100%;
         height: 400px;
-
 }
 
 .contact_bckg {
     position: relative;
-
     background-image: url(../images/contact.jpg);
-
   	padding: 0;
   	background-repeat: no-repeat;
   	background-size: cover;
   	background-position: 50% 50%;
     width: auto;
     background-attachment: fixed;
-
-
 }
+
 .mask {
     background-color: rgba(0, 0, 0, 0.5);
-
 }
+
 .contact p {
     text-indent: 0;
 	text-align: center;
@@ -565,7 +499,6 @@ form {
 }
 
 #social ul li {
-
 	display: inline-block;
 	margin: 0 1.5em;
 }
@@ -577,10 +510,11 @@ form {
 #social ul li a:hover {
     color: #FEDC3D;
 }
-.footer p  {
 
+.footer p  {
     text-align: center;
 }
+
 .footer a {
     color: #FEDC3D;
 }
