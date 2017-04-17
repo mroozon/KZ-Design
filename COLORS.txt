@@ -1,0 +1,20 @@
+Azure (lighrt blue)
+RGB:240,255,255
+HEX#f0ffff
+
+Citrine (yellow)
+RGB:228, 208, 10
+HEX#E4D00A
+
+Facebook light( light navy)
+RGB:59,89,152
+HEX#3B5998
+
+OTHER:
+White
+RGB:254,254,254
+#FEFEFE
+
+Black:
+RGB:0,0,0
+#000000
